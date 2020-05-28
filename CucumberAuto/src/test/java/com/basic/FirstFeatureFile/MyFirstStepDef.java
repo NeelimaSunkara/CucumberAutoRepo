@@ -20,6 +20,7 @@ public class MyFirstStepDef {
 		driver = new ChromeDriver();
 		driver.get("https://www.facebook.com");
 		Thread.sleep(5000);
+		System.out.println("opening URL");
 	}
 	
 	@When("^User enters user first name$")
